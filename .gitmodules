@@ -1,3 +1,6 @@
 [submodule "evo2-backend/evo2"]
 	path = evo2-backend/evo2
 	url = https://github.com/ArcInstitute/evo2
+[submodule "evo2-backend/evo2/vortex"]
+	path = evo2-backend/evo2/vortex
+	url = https://github.com/ArcInstitute/vortex.git
