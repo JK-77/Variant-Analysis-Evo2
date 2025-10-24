@@ -43,4 +43,4 @@ evo2-backend/env/
 evo2-backend/*.env
 evo2-backend/.env
 evo2-backend/.modal*
-evo2-backend/brca1_analysis_plot.png
+evo2-backend/brca1_analysis_plot.pngvenv/
