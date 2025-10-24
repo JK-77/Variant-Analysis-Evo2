@@ -22,6 +22,10 @@ evo2_image = (
         "CC": "/usr/bin/gcc",
         "CXX": "/usr/bin/g++",
     })
+    .run_commands("pip install --upgrade pip")
+    .run_commands("pip install packaging setuptools wheel")
+    .run_commands("pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121")
+    .run_commands("pip install flash-attn --no-build-isolation")
     .run_commands("git clone --recurse-submodules https://github.com/ArcInstitute/evo2.git && cd evo2 && pip install .")
     .run_commands("pip uninstall -y transformer-engine transformer_engine")
     .run_commands("pip install 'transformer_engine[pytorch]==1.13' --no-build-isolation")
