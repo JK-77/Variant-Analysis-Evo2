@@ -176,4 +176,4 @@ This project is licensed under the MIT License - see the [LICENSE.MD](LICENSE.MD
 
 ---
 
-**Built with ❤️ for the bioinformatics community**
+**Built with ❤️ by Jayesh Kriplani for the bioinformatics community**
